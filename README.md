@@ -37,9 +37,9 @@ To open a specific notebook you can simply run (make sure you are in the same wo
 
 `jupyter notebook notebook.ipynb`
 
-## Running the GUI
+### Running the GUI (on Windows)
 
-<span style="color:red">INSTRUCTIONS FOR RUNNING THE GUI HERE</span>.
+Use the `Capstone.exe` to install the GUI application on Windows.
 
 
 
