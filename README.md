@@ -48,8 +48,45 @@ Click the `Capstone.exe` to run the GUI application on Windows.
 ### Building the GUI from source code
 
 You will need a computer with python and all required packages. 
+Note: Windows is similar, with the exceptions that 
+    Must download pip from pip.pypa.io/en/stable/installing/ 
+ Directory structure is formatted differently
+    To access downloads `cd .\Downloads`
 
 Mac: 
+Install pip
+  Open Terminal
+
+`curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py`
+
+`python3 get-pip.py`
+
+Install required packages
+ 
+ `pip install pyqt5`
+ 
+ `pip install pandas`
+ 
+ `pip install matplotlib`
+ 
+ `pip install seaborn`
+ 
+ `pip install scikit-learn`
+ 
+ `pip intall numpy`
+ 
+ `pip install mlxtend`
+ 
+ Change directory to source code containing folder
+ (If in downloads)
+ 
+ `cd ./Downloads`
+ 
+ Compile and run source code
+ 
+ `python Capstone.py`
+
+
 
 
 
