@@ -48,9 +48,13 @@ Click the `Capstone.exe` to run the GUI application on Windows.
 ### Building the GUI from source code
 
 You will need a computer with python and all required packages. 
+
 Note: Windows is similar, with the exceptions that 
-    Must download pip from pip.pypa.io/en/stable/installing/ 
- Directory structure is formatted differently
+   
+   Must download pip from pip.pypa.io/en/stable/installing/ 
+
+Directory structure is formatted differently
+    
     To access downloads `cd .\Downloads`
 
 #### Mac: 
