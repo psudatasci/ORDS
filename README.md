@@ -51,7 +51,7 @@ You will need a computer with python and all required packages.
 
 Note: Windows is similar, with the exceptions that 
    
-   Must download pip from [Install Pip](pip.pypa.io/en/stable/installing/)
+   Must download pip from [Download Pip](https://pip.pypa.io/en/stable/installing/)
 
 Directory structure is formatted differently
     
