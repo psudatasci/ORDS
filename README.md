@@ -45,7 +45,7 @@ Click the `Capstone.exe` to run the GUI application on Windows.
 
 ![knn](knn.PNG)
 
-### Building the GUI from source code
+### Building the GUI from Source Code
 
 You will need a computer with python and all required packages. 
 
