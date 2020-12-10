@@ -53,9 +53,9 @@ Note: Windows is similar, with the exceptions that
  Directory structure is formatted differently
     To access downloads `cd .\Downloads`
 
-Mac: 
+#### Mac: 
 
-Install pip
+##### Install pip
 
 Open Terminal
 
@@ -63,7 +63,7 @@ Open Terminal
 
 `python3 get-pip.py`
 
-Install required packages
+##### Install required packages
  
  `pip install pyqt5`
  
@@ -79,12 +79,12 @@ Install required packages
  
  `pip install mlxtend`
  
- Change directory to source code containing folder
+##### Change directory to source code containing folder
  (If in downloads)
  
  `cd ./Downloads`
  
- Compile and run source code
+##### Compile and run source code
  
  `python Capstone.py`
 
