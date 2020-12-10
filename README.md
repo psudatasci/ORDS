@@ -1,4 +1,5 @@
 # ORDS
+
 ORDS (Open Repository or Data Sciences) is a learning tool which gives an introduction to basic data science concepts. 
 
 There are two ways a user can interact with this project. The first way is by running the source code directly. This gives the user an opportunity to learn how data science approaches within the project are being implemented behind-the-scenes. Additionally, the user can modify the existing source code or change the default arguments for certain parameters so there is some added control and flexibility with this option. We recommend running the `Docs.ipynb` first for users interested in this option. This file will need to be run with the **jupyter notebook** application. More instructions on how to do this are below.
@@ -48,5 +49,9 @@ Click the `Capstone.exe` to install the GUI application on Windows.
 
 
 ## Documentation
+
+![Docs](Docs_Screenshot.png)
+
+
 
 We offer documentation of the source code in two formats. The first format is a follow-along jupyter notebook (`Docs.ipynb`). The second is a pdf version of this notebook (`Docs.pdf`) for those who are interested in just reading about the source code rather than executing any of the code. The documentation goes over some basic machine learning terminology, typical data science workflows, and intuition behind how some of the algorithms in the project work. This is to be read if you are looking to dive deeper into the approaches and to understand how to exectute these functions. If you just want to play along with the GUI then this probably won't be of interest to you.
