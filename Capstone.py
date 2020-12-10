@@ -13,7 +13,6 @@ import pandas as pd
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas, \
     NavigationToolbar2QT as NavigationToolbar
 import matplotlib.pyplot as plt
-# import pyqtgraph as pg
 import seaborn as sns
 from sklearn.linear_model import LinearRegression, LogisticRegression, Lasso
 from sklearn.model_selection import train_test_split
@@ -320,8 +319,6 @@ class App(QWidget):
         model = Lasso(alpha=2).fit(X, y)
         pred = model.predict(X)
         score = model.score(X, y)
-        # model = LogisticRegression(multi_class='multinomial').fit(X,y)
-        # pred = model.predict_proba(X)
         return X, y, pred, score
 
     def kmeans(self, a, b):
@@ -389,12 +386,6 @@ class App(QWidget):
 
             self.firstcol, self.secondcol, self.result = self.dataselector()
 
-            # if self.current_method == "Linear Regression":
-            # X,y,pred,score = self.linearregression(self.current_dataset[[self.firstcol]],self.current_dataset[self.result])
-
-            # self.score = score
-
-            # self.scorelabel.setText("Score: %s" %(self.score))
             self.heatplot()
             self.graph()
             self.scoreupdate()
@@ -408,10 +399,7 @@ class App(QWidget):
             self.graph()
             self.heatplot()
             self.scoreupdate()
-        # if self.current_method == "Linear Regression":
-        #     X,y,pred,score = self.linearegression(self.current_dataset[[self.firstcol]]),self.current_dataset[self.result])
-        # self.score = score
-        # self.scorelabel.setTex
+
 
 
 if __name__ == '__main__':
