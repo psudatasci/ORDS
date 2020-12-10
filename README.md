@@ -55,7 +55,9 @@ Note: Windows is similar, with the exceptions that
 
 Directory structure is formatted differently
     
-    To access downloads `cd .\Downloads`
+To access downloads 
+   
+   `cd .\Downloads`
 
 #### Mac: 
 
