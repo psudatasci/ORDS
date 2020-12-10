@@ -55,11 +55,11 @@ Note: Windows is similar, with the exceptions:
 
 -Directory structure is formatted differently
     
-To access downloads 
+To access downloads folder
    
    `cd .\Downloads`
 
-#### Mac: 
+#### How to install (Mac Install shown, Windows notes above): 
 
 ##### Install pip
 
