@@ -54,8 +54,10 @@ Note: Windows is similar, with the exceptions that
     To access downloads `cd .\Downloads`
 
 Mac: 
+
 Install pip
-  Open Terminal
+
+Open Terminal
 
 `curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py`
 
