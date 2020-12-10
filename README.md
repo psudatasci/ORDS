@@ -40,18 +40,73 @@ To open a specific notebook you can simply run (make sure you are in the same wo
 
 ### Running the GUI (on Windows)
 
-Click the `Capstone.exe` to install the GUI application on Windows.
+Click the `Capstone.exe` to run the GUI application on Windows.
 
 
 
 ![knn](knn.PNG)
 
+### Building the GUI from Source Code
+
+You will need a computer with python and all required packages. 
+
+Note: Windows is similar, with the exceptions: 
+   
+-Must download pip from [Download Pip](https://pip.pypa.io/en/stable/installing/)
+
+-Directory structure is formatted differently
+    
+To access downloads folder
+   
+   `cd .\Downloads`
+
+#### How to install (Mac Install shown, Windows notes above): 
+
+##### Install pip
+
+Open Terminal
+
+`curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py`
+
+`python3 get-pip.py`
+
+##### Install required packages
+ 
+ `pip install PyQt5`
+ 
+ `pip install pandas`
+ 
+ `pip install matplotlib`
+ 
+ `pip install seaborn`
+ 
+ `pip install scikit-learn`
+ 
+ `pip intall numpy`
+ 
+ `pip install mlxtend`
+ 
+##### Change directory to source code containing folder
+ (If in downloads)
+ 
+ `cd ./Downloads`
+ 
+##### Compile and run source code
+ 
+ `python Capstone.py`
+
+
+
 
 
 ## Documentation
 
+<<<<<<< HEAD
 ![Docs](Docs_Screenshot.png)
 
 
 
 We offer documentation of the source code in two formats. The first format is a follow-along jupyter notebook (`Docs.ipynb`). The second is a pdf version of this notebook (`Docs.pdf`) for those who are interested in just reading about the source code rather than executing any of the code. The documentation goes over some basic machine learning terminology, typical data science workflows, and intuition behind how some of the algorithms in the project work. This is to be read if you are looking to dive deeper into the approaches and to understand how to exectute these functions. If you just want to play along with the GUI then this probably won't be of interest to you.
+=======
+We offer documentation of the source code in two formats. The first format is a follow-along jupyter notebook (`Docs.ipynb`). The second is a pdf version of this notebook (`Docs.pdf`) for those who are interested in just reading about the source code rather than executing any of the code. The documentation goes over some basic machine learning terminology, typical data science workflows, and intuition behind how some of the algorithms in the project work. This is to be read if you are looking to dive deeper into the approaches and to understand how to exectute these functions. If you just want to play along with the GUI then this probably won't be of interest to you.
+>>>>>>> a37efe757c838a1f2993efc1884ee93f08e698aa

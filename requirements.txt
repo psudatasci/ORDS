@@ -4,3 +4,5 @@ matplotlib
 seaborn
 sklearn
 nltk
+pyqt5
+mlxtend
