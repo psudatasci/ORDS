@@ -71,7 +71,7 @@ Open Terminal
 
 ##### Install required packages
  
- `pip install pyqt5`
+ `pip install PyQt5`
  
  `pip install pandas`
  
